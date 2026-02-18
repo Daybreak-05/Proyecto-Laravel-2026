@@ -32,7 +32,7 @@
             <div class="col-md-4 mb-3">
                 <div class="card h-100 border-0 shadow-sm border-start border-4 border-primary">
                     <div class="card-body">
-                        <h5 class="card-title">{!! str_ireplace($filter, "<span class='bg-danger text-white rounded px-1'>$filter</span>", $a->especie) !!}</h5> <!-- !! sustituye a {{ }} para mostrar data raw -->
+                        <h5 class="card-title">{!! str_ireplace($filter, "<span class='bg-danger text-white rounded px-1'>$filter</span>", $a->especie) !!}</h5>
                         <p class="card-text text-muted">{{ $a->cantidad }} ejemplares detectados.</p>
                     </div>
                 </div>
